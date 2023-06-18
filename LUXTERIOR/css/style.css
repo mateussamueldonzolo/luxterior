@@ -1,0 +1,185 @@
+body{
+    margin: auto;
+    padding: 0;
+    font-family:  Helvetica;
+    color: #586D78;
+    height: 5000px;
+}
+
+header, section, aside{
+    margin: auto;
+    width: 90%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 50px;
+}
+
+.menu{
+    word-spacing: 40px;
+}
+
+.menu ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*BUTTON - ICON */
+.icon button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+section{
+    height: 600px;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 20px;
+}
+
+.section-l{
+    background: #596E79;
+    height: auto;
+    width: 500px;
+    color: #fff;
+    margin-top: 5rem;
+    position: absolute;
+    padding: 0 2rem 2rem 4rem;
+}
+
+.section-l p{
+    line-height: 2rem;
+    font-size: 1.15rem;
+    color: #dadada;
+}
+
+.section-l h1{
+    font-size: 3.6rem;
+}
+
+.section-r{
+    background: url(../img/interior-img/i1.webp);
+    border-radius: 10px;
+    height: 550px;
+    width: 70%;
+    float: right;
+    background-size: cover;
+}
+
+.rect{
+    height: 30px;
+    width: 30px;
+    padding: 3rem;
+    border-radius: 5px;
+    background: #596E79;
+    color: #fff;
+    margin-top: 30rem;
+    position: absolute;
+    right: 3rem;
+}
+
+.rect button{
+    border: 0;
+    background: none;
+}
+
+/*ASIDE*/
+
+aside{
+    color: #000;
+    margin-top: 8rem;
+}
+
+.tittle{
+    width: 50%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+/*SERVICE*/
+
+.service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 6rem;
+}
+
+.service-prod{
+    display: flex;
+}
+
+.service-text{
+    padding: 1rem;
+}
+
+.service-text strong{
+    font-size: 1.60rem;
+}
+
+.service-text p{
+    font-size: 1.20rem;
+    line-height: 30px;
+    color: #596E79;
+}
+
+/*EXPERIENCE*/
+
+.experience{
+    display: grid;
+    grid-template-columns: 0.70fr 0.70fr;
+    height: 600px;
+    gap: 100px;
+    margin-top: 6rem;
+}
+
+.experience-img{
+    background: url(../img/interior-img/i1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.experience-txt button{
+    margin-top: 2rem;
+    background: none;
+    width: 150px;
+    font-size: 17px;
+    border: 0;
+    outline: 1px solid #000;
+    padding: 1rem;
+}
+
+.icon-s{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+
+.exper-text h1{
+    font-size: 3rem;
+}   
+
+.exper-text p{
+    font-size: 1.10rem;
+    line-height: 40px;
+    color: #596E79;
+}
+
+/*EXPER COUNTER*/
+
+.exper-counter{
+    display: flex;
+    width: 60px;
+    gap: 30px;
+    color: #596E79;
+    font-size: 1.50rem;
+}
+
+.exper-counter p{
+    font-size: 1.15rem;
+}

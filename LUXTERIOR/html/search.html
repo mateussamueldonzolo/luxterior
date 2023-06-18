@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXTERIOR - SEARCH</title>
+</head>
+
+<style>
+    
+body{
+    margin: auto;
+    padding: 0;
+    font-family:  Helvetica;
+    color: #586D78;
+    height: auto;
+}
+
+header, section, aside{
+    margin: auto;
+    width: 90%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 50px;
+}
+
+.menu{
+    word-spacing: 40px;
+}
+
+.menu ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*BUTTON - ICON */
+
+.icon button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+article{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 25px;
+    border-bottom: 1px solid #586d7870;
+}
+
+.search{
+        margin: 20px auto;
+        width: 50%;
+        height: 80px;
+        padding: 1rem;
+        background: #fff;
+        border-radius: 30px;
+        border: 1px solid #586d7870;
+}
+
+input{
+        width: 60%;
+        padding: 2rem;
+        background: none;
+        color: #586D78;
+        border: 0;
+        outline: 0;
+        font-size: 19px;
+        background-image: url(../img/icon1.png);
+        background-repeat: no-repeat;
+        background-position: 1rem;
+        padding-left: 80px;
+}
+
+::placeholder{
+        color: #586D78;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <strong>LUXTERIOR</strong>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Features</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="icon">
+            <a href="html/search.html"> 
+                <button type="">
+                <img src="../img/icon1.png" alt="" srcset="">
+                </button>
+            </a> 
+          <button type="">
+                <img src="../img/icon2.png" alt="" srcset="">
+            </button>
+        </div>
+    </header>
+    <article>
+        <div class="search">
+            <input type="text" placeholder="Digite aqui a sua pesuisa">
+        </div>
+    </article>
+
+</body>
+</html>
